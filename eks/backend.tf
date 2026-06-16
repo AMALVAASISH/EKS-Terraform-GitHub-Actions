@@ -10,7 +10,7 @@ terraform {
     bucket         = "amal-tf-bucket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    use_lockstate  = true
+    use_lockfile  = true
     encrypt        = true
   }
 }
